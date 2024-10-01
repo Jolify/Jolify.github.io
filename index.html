@@ -3,38 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic Website</title>
+    <title>My Custom Website</title>
     <style>
+        /* Applying a simple styling */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #eaecef;
         }
         header {
-            background: #35424a;
+            background-color: #007bff;
             color: #ffffff;
-            padding: 10px 20px;
+            padding: 20px;
             text-align: center;
         }
         nav {
-            margin: 20px 0;
+            background-color: #0056b3;
+            padding: 10px 0;
         }
         nav a {
-            margin: 0 15px;
+            margin: 0 20px;
             text-decoration: none;
-            color: #35424a;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
         .content {
             padding: 20px;
             background: white;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         footer {
             text-align: center;
-            padding: 10px;
-            background: #35424a;
+            padding: 15px;
+            background-color: #007bff;
             color: #ffffff;
             position: relative;
             bottom: 0;
@@ -45,34 +52,40 @@
 <body>
 
 <header>
-    <h1>Welcome to My Basic Website</h1>
+    <h1>Welcome to My Custom Website</h1>
 </header>
 
 <nav>
     <a href="#home">Home</a>
-    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
     <a href="#contact">Contact</a>
 </nav>
 
+<!-- Content Sections -->
 <div class="content" id="home">
     <h2>Home</h2>
-    <p>This is a simple homepage for demonstrating a basic website layout.</p>
+    <p>Welcome to the homepage! Here you can find the latest updates and news about our services.</p>
 </div>
 
-<div class="content" id="about">
-    <h2>About</h2>
-    <p>This section contains information about the website. You can add more details here.</p>
+<div class="content" id="services">
+    <h2>Services</h2>
+    <p>Here you can learn more about the services we offer, designed to take your business to the next level.</p>
+</div>
+
+<div class="content" id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Take a look at our past projects to get an idea of the quality and style of our work.</p>
 </div>
 
 <div class="content" id="contact">
     <h2>Contact</h2>
-    <p>Feel free to reach out if you have any questions or feedback!</p>
+    <p>Get in touch with us through this section for any inquiries or support.</p>
 </div>
 
 <footer>
-    <p>&copy; 2023 My Basic Website</p>
+    <p>&copy; 2023 My Custom Website</p>
 </footer>
 
 </body>
 </html>
-
